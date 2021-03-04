@@ -1,7 +1,7 @@
 let label1 = ['Stock', 'Used'];
 let data1 = [89, 11];
 let colors1 = ['#298acd', '#ffffff'];
-let myGraph1 = document.getElementById("genderGraph").getContext('2d');
+let myGraph1 = document.getElementById("waterGraph").getContext('2d');
 
 let graph1 = new Chart(myGraph1, {
   type: 'doughnut',
@@ -45,7 +45,7 @@ let graph2 = new Chart(myGraph2, {
 
 let label3 = ['Main', 'Main 2', 'Halls', 'Bath', 'Tube 1', ' Tube 2', 'Controll'];
 let data3 = [0.8,0.85,0.95,0.7,0.9,0.92,1];
-let myGraph3 = document.getElementById("launchGraph").getContext('2d');
+let myGraph3 = document.getElementById("oxygenGraph").getContext('2d');
 
 let graph3 = new Chart(myGraph3, {
   type: 'radar',
@@ -61,6 +61,17 @@ let graph3 = new Chart(myGraph3, {
     title: {
       text: "Oxygen quality",
       display:true
-  }
+  },
+  scale: {
+    angleLines: {
+        display: true,
+        color: '#FFF',
+    },
+    gridLines: {
+        display: true,
+        color: '#FFF',
+    }
+}
+
 }
 });
