@@ -73,14 +73,6 @@ section{
 }
 
 @media only screen and (min-width:1024px){
-
-  .graphs{
-    min-width: 40%;
-    padding:2%;
-  }
-}
-
-@media only screen and (min-width:1300px){
   body{
     background-color: #3b3b48;
     margin: 0;
@@ -95,6 +87,14 @@ section{
     margin: auto auto;
     width: 90%;
   }
+  .graphs{
+    min-width: 40%;
+    padding:2%;
+  }
+}
+
+@media only screen and (min-width:1300px){
+
 
     .graphs{
       min-width: 30%;
