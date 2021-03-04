@@ -87,6 +87,14 @@ section{
     margin: auto auto;
     width: 90%;
   }
+
+  div {
+      display: flex;
+      background: #202029;
+      text-align: center;
+      justify-content: space-around;
+}
+
   .graphs{
     min-width: 40%;
     padding:2%;
@@ -94,7 +102,6 @@ section{
 }
 
 @media only screen and (min-width:1300px){
-
 
     .graphs{
       min-width: 30%;
@@ -107,11 +114,6 @@ section{
       padding:2%;
     }
 
-    div {
-        display: flex;
-        background: #202029;
-        text-align: center;
-        justify-content: space-around;
-  }
+
 
 }
