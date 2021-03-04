@@ -65,11 +65,11 @@ let graph3 = new Chart(myGraph3, {
   scale: {
     angleLines: {
         display: true,
-        color: '#FFF',
+        color: '#ffffff'
     },
     gridLines: {
         display: true,
-        color: '#FFF',
+        color: '#ffffff'
     }
 }
 
