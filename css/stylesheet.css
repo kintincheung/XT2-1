@@ -4,7 +4,9 @@ body{
   background-color: #3b3b48;
   margin: 0;
   padding:0;
+  font-family: Helvetica;
 }
+
 
 section{
   display: flex;
@@ -14,12 +16,6 @@ section{
   margin: auto auto;
   width: 90%;
 }
-
-
-}
-
-@media only screen and (min-width:740px){
-
 
   .graphs{
     min-width: 40%;
@@ -31,24 +27,88 @@ section{
     min-width: 80%;
     margin:1%;
     padding:2%;
+  }
 
+  div {
+      display: flex;
+      background: #202029;
+      text-align: center;
+      justify-content: space-around;
+}
+
+.logo{
+  width: 10%;
+  justify-content: space-around;
+  text-align: center;
+  margin: auto auto;
+  padding:1%;
+  display: block;
+
+}
+
+}
+
+@media only screen and (min-width:740px){
+
+  .graphs{
+    min-width: 40%;
+    margin:1%;
+    padding:2%;
+  }
+
+  .distance{
+    min-width: 80%;
+    margin:1%;
+    padding:2%;
   }
   div {
       display: flex;
       background: #202029;
       text-align: center;
       justify-content: space-around;
-
   }
 
 }
 
 @media only screen and (min-width:1024px){
-
+  .logo{
+    width: 3%;
+  }
 
 }
 
 @media only screen and (min-width:1300px){
+  body{
+    background-color: #3b3b48;
+    margin: 0;
+    padding:0;
+  }
 
+  section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin: auto auto;
+    width: 90%;
+  }
+
+    .graphs{
+      min-width: 31%;
+      padding:2%;
+    }
+
+    .distance{
+      min-width: 80%;
+      margin:1%;
+      padding:2%;
+    }
+
+    div {
+        display: flex;
+        background: #202029;
+        text-align: center;
+        justify-content: space-around;
+  }
 
 }
